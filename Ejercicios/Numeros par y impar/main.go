@@ -5,7 +5,6 @@ import (
 )
 
 func main() {
-
 	var (
 		numero, numerosPar, numerosImpar = 0, 0, 0
 	)
@@ -17,6 +16,7 @@ func main() {
 	for i := 1; i <= 5; i++ {
 		fmt.Print("Ingrese un numero: ")
 		fmt.Scanln(&numero)
+
 		if numero%2 == 0 {
 			fmt.Println("El numero", numero, "es par")
 			numerosPar++
@@ -30,5 +30,4 @@ func main() {
 	fmt.Println("Hubieron", numerosPar, "numeros par.")
 	fmt.Println("Hubieron", numerosImpar, "numeros impar.")
 	fmt.Println("-----------------------------------------")
-
 }

@@ -5,7 +5,6 @@ import (
 )
 
 func main() {
-
 	a := 10
 	b := 5
 
