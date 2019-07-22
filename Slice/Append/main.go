@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main(){
+func main() {
 	x := make([]byte, 4, 10)
 	fmt.Println(x)
 

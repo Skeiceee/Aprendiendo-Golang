@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main(){
+func main() {
 	origen := []int{1, 2, 3}
 	destino := []int{3, 4, 5}
 	copy(destino, origen)

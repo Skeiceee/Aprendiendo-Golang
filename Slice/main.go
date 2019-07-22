@@ -4,10 +4,10 @@ import (
 	"fmt"
 )
 
-func main(){
+func main() {
 	var j []int
 	fmt.Println("Slice j:", j)
-	
+
 	x := []int{1, 2, 3}
 	fmt.Println("Slice x:", x)
 
@@ -26,7 +26,7 @@ func main(){
 
 	var a, b []int
 	fmt.Println("Slice a:", a)
-	fmt.Println("Slice b:", b)	
+	fmt.Println("Slice b:", b)
 
 	a = arr[2:5]
 	b = arr[3:5]
@@ -35,11 +35,11 @@ func main(){
 
 	b[0] = 25
 	fmt.Println("Asignamos b[0] = 25")
-	
+
 	fmt.Println("Slice b:", b)
 	fmt.Println("Slice a:", a)
 	fmt.Println("Array arr:", arr)
-	
+
 	fmt.Println("Capacidad de b:", cap(b))
 	fmt.Println("Capacidad de a:", cap(a))
 }
