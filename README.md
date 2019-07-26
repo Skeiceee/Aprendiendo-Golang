@@ -1,3 +1,4 @@
 # Aprendiendo Golang
 
-[Cheat-sheets](https://medium.com/@AndroidAdvance/go-golang-cheat-sheets-cheatsheets-for-beginners-tutorial-6a2571f2ba90)
+* [gobyexample.com](https://gobyexample.com/)
+* [devhints.io/go](https://devhints.io/go)
